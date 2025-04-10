@@ -1,0 +1,129 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+  --background: 40 70% 98%;
+    --foreground: 20 10% 15%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 20 10% 15%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 20 10% 15%;
+
+    --primary: 45 89% 57%;
+    --primary-foreground: 20 10% 15%;
+
+    --secondary: 28 80% 52%;
+    --secondary-foreground: 0 0% 98%;
+
+    --muted: 40 30% 96%;
+    --muted-foreground: 20 10% 40%;
+
+    --accent: 175 87% 43%;
+    --accent-foreground: 0 0% 98%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 20 10% 86%;
+    --input: 20 10% 86%;
+    --ring: 45 89% 57%;
+
+    --radius: 0.75rem;
+  
+}
+
+:root {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+/* @media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+} */
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+/* CSS Variables */
+@layer base {
+  :root {
+    --background: 40 70% 98%;
+    --foreground: 20 10% 15%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 20 10% 15%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 20 10% 15%;
+
+    --primary: 45 89% 57%;
+    --primary-foreground: 20 10% 15%;
+
+    --secondary: 28 80% 52%;
+    --secondary-foreground: 0 0% 98%;
+
+    --muted: 40 30% 96%;
+    --muted-foreground: 20 10% 40%;
+
+    --accent: 175 87% 43%;
+    --accent-foreground: 0 0% 98%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 20 10% 86%;
+    --input: 20 10% 86%;
+    --ring: 45 89% 57%;
+
+    --radius: 0.75rem;
+  }
+}
+
+/* Base Styles */
+@layer base {
+  /* border-border */
+  /* * { ç */
+    /* @apply border-border; */
+   }
+
+  /* bg-hsl(40 70% 98%)  text-hsl(20 10% 15%) */
+  body {
+    /* @apply bg-hsl(40 70% 98%) text-hsl(20 10% 15%); */
+    font-feature-settings: "rlig" 1, "calt" 1;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  /* bg-gradient-to-br from-hsl(48 89% 60%)/20 via-hsl(40 70% 98%) to-hsl(168 83% 41%)/10 */
+  /* .gradient-bg { */
+    /* @apply bg-gradient-to-br from-from-hsl(48 89% 60%)/20 via-hsl(40 70% 98%) to-hsl(168 83% 41%)/10; */
+  /* } */
+
+  /* bg-gradient-to-br from-white to-badger-yellow/20 shadow-xl */
+  /* .card-gradient { */
+    /* @apply bg-gradient-to-br from-white shadow-xl; */
+  /* } */
+/* } */
+
+/* Dark Mode */
+/* @media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+} */
