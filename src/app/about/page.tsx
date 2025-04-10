@@ -110,13 +110,13 @@ const About = () => {
             <div className="bg-white p-6 rounded-lg shadow-md flex flex-col items-center">
             <Image src="https://i.imgur.com/xgshOou.jpeg" alt="Diego Rameriz" width={24} height={24} className=" w-24 h-24 rounded-full mb-4" />
             <h3 className="font-bold text-lg">Diego Rameriz</h3>
-              <p className="text-badger-orange">Co-Founder & CEO</p>
+              <p className="text-badger-orange">Co-Founder</p>
             </div>
             
             <div className="bg-white p-6 rounded-lg shadow-md flex flex-col items-center">
               <Image src="https://i.imgur.com/mSwPqeS.jpeg" width={24} height={24} alt="Naquan Smith" className=" w-24 h-24 rounded-full mb-4" />
               <h3 className="font-bold text-lg">Naquan Smith</h3>
-              <p className="text-badger-orange">Co-Founder & CTO</p>
+              <p className="text-badger-orange">Co-Founder</p>
             </div>
             
             <div className="bg-white p-6 rounded-lg shadow-md flex flex-col items-center">
