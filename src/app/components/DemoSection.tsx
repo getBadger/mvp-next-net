@@ -12,7 +12,7 @@ const DemoSection: React.FC = () => {
         </div>
         
         <div className="relative w-full max-w-4xl mx-auto rounded-xl overflow-hidden shadow-2xl">
-          <div className="aspect-w-16 aspect-h-9 bg-black">
+          <div className="aspect-w-16 aspect-h-9 ">
             <div className="w-full h-full text-muted-foreground from-orange-200 to-blue-200 flex items-center justify-center">
               <div className="text-center p-8">
                 <h3 className="text-2xl font-bold mb-4 text-white">Product Demo</h3>

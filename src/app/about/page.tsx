@@ -58,7 +58,7 @@ const About = () => {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto">
             <Card className="bg-white border-none shadow-lg">
               <CardContent className="pt-6">
-                <div className="mb-4 w-12 h-12 bg-[color:hsl(48 89% 60%)]/10 rounded-lg flex items-center justify-center">
+                <div className="mb-4 w-12 h-12 bg-badger-yellow/10 rounded-lg flex items-center justify-center">
                   <Shield className="w-6 h-6 text-badger-orange" />
                 </div>
                 <h3 className="text-xl font-bold mb-2">Transparency First</h3>
@@ -82,8 +82,8 @@ const About = () => {
             
             <Card className="bg-white border-none shadow-lg">
               <CardContent className="pt-6">
-                <div className="mb-4 w-12 h-12 bg-[color:hsl(168 83% 41%)]/10 rounded-lg flex items-center justify-center">
-                  <Heart className="w-6 h-6 text-[color:hsl(168 83% 41%)]" />
+                <div className="mb-4 w-12 h-12 bg-badger-teal/10 rounded-lg flex items-center justify-center">
+                  <Heart className="w-6 h-6 text-teal" />
                 </div>
                 <h3 className="text-xl font-bold mb-2">Community-Centered</h3>
                 <p className="text-muted-foreground">
@@ -126,7 +126,7 @@ const About = () => {
             </div>
             
             <div className="bg-white p-6 rounded-lg shadow-md flex flex-col items-center">
-              <div className="w-24 h-24 rounded-full bg-[color:hsl(168 83% 41%)]/20 mb-4"></div>
+              <div className="w-24 h-24 rounded-full bg-badger-deepOrange/20 mb-4"></div>
               <h3 className="font-bold text-lg">Katherine Reed</h3>
               <p className="text-badger-orange">UX Designer</p>
             </div>

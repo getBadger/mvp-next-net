@@ -7,6 +7,8 @@ import Logo from './Logo';
 const Navbar: React.FC = () => {
   return (
     <header className="font-bold w-full py-4 px-4 md:px-8 bg-white/80 backdrop-blur-md fixed top-0 z-50">
+      <link rel="icon" href="/favicon.ico" sizes="any" />
+      
       <div className="max-w-7xl mx-auto flex items-center justify-between font-bold text-l">
         <Logo logoUrl="https://i.imgur.com/Zbv8Xwb.png" width={50} height={50} />
         
