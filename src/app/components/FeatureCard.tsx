@@ -13,7 +13,7 @@ const FeatureCard: React.FC<FeatureCardProps> = ({
   icon, 
   title, 
   description, 
-  colorClass = "bg-[color:hsl(48 89% 60%)]/10" 
+  colorClass = "bg-yellow/10" 
 }) => {
   return (
     <Card className="border-none shadow-lg hover:shadow-xl transition-all">
