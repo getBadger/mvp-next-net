@@ -3,7 +3,7 @@
 import React from 'react';
 import Navbar from './components/Navbar';
 import WaitlistForm from './components/WaitlistForm';
-// import ThreeDModel from './components/ThreeDModel';
+import ThreeDModel from './components/ThreeDModel';
 import HowItWorks from './components/HowItWorks';
 // import StatsSection from './components/StatsSection';
 import DemoSection from './components/DemoSection';
@@ -21,29 +21,37 @@ const Index = () => {
         <div className="container mx-auto">
           <div className="flex flex-col lg:flex-row items-center gap-12">
             <div className="flex-1">
-              <div className="inline-block bg-yellow-100 px-4 py-2 rounded-full mb-6">
-                <span className="text-orange-600 font-medium">Coming Soon</span>
+              <div className="inline-block bg-orange-100 px-4 py-2 rounded-full mb-6">
+                <span className="text-orange-600 font-medium">Coming Soon!</span>
               </div>
+              <div className="flex flex-col items-center justify-center text-center px-4 py-12">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
-              Increase Affiliate Sales
-              with <span className="text-orange-500">Badger</span>
+                Increase Affiliate Sales with <span className="text-orange-500">Badger</span>
               </h1>
-              <p className="text-xl text-gray-600 mb-8 max-w-xl">
-              Badger helps affiliate marketers and influencers reach a broader audience and earn more sales commissions.
+              <p className="text-xl text-gray-600 mb-8 max-w-5xl">
+                Badger helps affiliate marketers and influencers reach a broader audience and earn more sales commissions.
               </p>
 
-              <h1 className="text-2xl md:text-1l lg:text-4xl font-bold mb-6">Join Our Waitlist!</h1>
-              <WaitlistForm />
+              <div className="flex flex-col lg:flex-row items-stretch justify-center gap-8 w-full max-w-5xl">
+                <div className="w-full lg:w-1/2">
+                  <WaitlistForm />
+                </div>
+                {/* <div className="w-full lg:w-1/2">
+                   <ThreeDModel /> 
+                </div> */}
+              </div>
+            </div>
+
+
+          
               
               <p className="mt-4 text-sm text-gray-600">
                 {/* Join 10,000+ early adopters. Be the first to know when we launch. */}
               </p>
-            </div>
             
-            {/* TODO: add 3d model */}
-            {/* <div className="flex-1"> */}
-              {/* <ThreeDModel /> */}
-            {/* </div> */}
+            
+            
+            </div>
           </div>
           
           {/* <div className="flex justify-center mt-16">

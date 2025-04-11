@@ -105,8 +105,8 @@ const About = () => {
             </p>
           </div>
           
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 max-w-4xl mx-auto">
-            {/* Team member cards would go here */}
+          <div className="flex justify-center flex-wrap gap-8 max-w-4xl mx-auto">
+          {/* Team member cards would go here */}
             <div className="bg-white p-6 rounded-lg shadow-md flex flex-col items-center">
             <Image src="https://i.imgur.com/xgshOou.jpeg" alt="Diego Rameriz" width={24} height={24} className=" w-24 h-24 rounded-full mb-4" />
             <h3 className="font-bold text-lg">Diego Rameriz</h3>
@@ -119,7 +119,7 @@ const About = () => {
               <p className="text-badger-orange">Co-Founder</p>
             </div>
             
-            <div className="bg-white p-6 rounded-lg shadow-md flex flex-col items-center">
+            {/* <div className="bg-white p-6 rounded-lg shadow-md flex flex-col items-center">
               <div className="w-24 h-24 rounded-full bg-badger-deepOrange/20 mb-4"></div>
               <h3 className="font-bold text-lg">Mercio Collins</h3>
               <p className="text-badger-orange">Lead Developer</p>
@@ -129,7 +129,7 @@ const About = () => {
               <div className="w-24 h-24 rounded-full bg-badger-deepOrange/20 mb-4"></div>
               <h3 className="font-bold text-lg">Katherine Reed</h3>
               <p className="text-badger-orange">UX Designer</p>
-            </div>
+            </div> */}
 
           </div>
         </div>

@@ -4,6 +4,7 @@ import Script from 'next/script';
 const WaitlistForm: React.FC = () => {
   return (
     <div id="mc_embed_signup">
+                    <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-3">Join Our Waitlist!</h1>
       <form
         action="https://gmail.us20.list-manage.com/subscribe/post?u=d87324bb0fccf652d78a78b55&amp;id=d86aba4508&amp;f_id=009bc4e3f0"
         method="post"
